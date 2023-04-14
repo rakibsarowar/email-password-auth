@@ -16,9 +16,12 @@ const Register = () => {
         setEmailBlar(event.target.value)
     }
 
+    // get all data from Form ----------------------
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(event.target.email.value)
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        console.log(email, password)
     }
     return (
         <div>
