@@ -17,7 +17,8 @@ const Register = () => {
     }
 
     const handleSubmit = (event) => {
-        console.log(event.target)
+        event.preventDefault();
+        console.log(event.target.email.value)
     }
     return (
         <div>
