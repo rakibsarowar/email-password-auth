@@ -11,10 +11,7 @@ const RegisterRBS = () => {
         console.log(email, password)
     }
 
-
     return (
-
-
         <div className='w-50 mx-auto'>
             <h1>Please Register</h1>
             <Form onSubmit={handleRegister}>
