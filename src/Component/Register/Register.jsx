@@ -41,7 +41,7 @@ const Register = () => {
         <div className='w-50 mx-auto'>
             <h2>Please Register</h2>
             <form onSubmit={handleSubmit}>
-                <input onChange={handleEmailChange} type="email" name="email" id="email" placeholder='your email' /> <br />
+                <input onChange={handleEmailChange} type="email" name="email" id="email" placeholder='your email' required /> <br />
 
                 <input onBlur={handlePasswordBlar} type="password" name="password" id="" placeholder='your password' /> <br />
                 <input type="submit" value="Register" />
